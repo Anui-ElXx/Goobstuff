@@ -97,8 +97,8 @@
 
 - type: typingIndicator
   id: ungu
-  typingState: default0
-  idleState: default3
+  typingState: ungu
+  idleState: ungu
   offset: 0, 0.125
 
 - type: typingIndicator
