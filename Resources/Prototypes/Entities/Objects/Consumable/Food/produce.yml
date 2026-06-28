@@ -1881,6 +1881,7 @@
   - type: Tag
     tags:
     - Ambrosia
+    - Ruminant #imp
   - type: FoodSequenceElement
     entries:
       Taco: AmbrosiaVulgaris

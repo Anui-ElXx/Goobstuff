@@ -124,6 +124,12 @@
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
     state: dried
+  # imp edit start
+  - type: Edible
+  - type: Tag
+    tags:
+    - Ruminant
+  # imp edit end
 
 - type: entity
   name: ground cannabis
@@ -314,6 +320,12 @@
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
     state: dried
+  # imp edit start
+  - type: Edible
+  - type: Tag
+    tags:
+    - Ruminant
+  # imp edit end
 
 - type: entity
   name: ground tobacco

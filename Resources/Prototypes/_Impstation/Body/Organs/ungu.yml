@@ -30,7 +30,7 @@
       - Crayon
       - Paper
       - BananaPeel
-      #- Ruminant # I think this is what allows ungu to eat kudzu? will have a look later
+      - Ruminant
       - Wheat
       - Vegetable
       - UnguFood # do I really need to add this tag to dozens of food items? fuck that, Ungu will be a vegan species until someone fix it
