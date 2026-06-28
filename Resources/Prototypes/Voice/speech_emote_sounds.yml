@@ -891,6 +891,11 @@
       collection: Salutes
     Crack: # Imp
       collection: Cracks # Imp
+    Blink: # Imp
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
 
 - type: emoteSounds
   id: DionaBodyEmotes
@@ -909,6 +914,11 @@
        volume: -5
     Crack: # Imp
       collection: Cracks # Imp
+    Blink: # Imp
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
 
 - type: emoteSounds
   id: ReptilianBodyEmotes
@@ -929,6 +939,11 @@
       collection: Salutes
     Crack: # Imp
       collection: Cracks # Imp
+    Blink: # Imp
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
 
 # mobs
 - type: emoteSounds
@@ -1074,3 +1089,8 @@
       collection: Salutes
     Crack: # Imp
       collection: Cracks # Imp
+    Blink: # Imp
+      collection: Blinks
+      params:
+        volume: -3
+        variation: 0.1
