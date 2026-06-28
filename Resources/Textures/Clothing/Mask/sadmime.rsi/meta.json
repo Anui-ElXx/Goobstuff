@@ -15,7 +15,11 @@
             "directions": 4
         },
         {
-            "name": "equipped-MASK-reptilian",
+            "name": "equipped-MASK-ungu",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-reptilian",
             "directions": 4
         },
         {

@@ -11,6 +11,12 @@
     requiresSpecialDigestion: true
   - type: StealTarget
     stealGroup: Plushie
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: plushie_ungu-inhand-left
+      right:
+      - state: plushie_ungu-inhand-right
 
 - type: entity
   parent: BasePlushie
@@ -25,3 +31,9 @@
     requiresSpecialDigestion: true
   - type: StealTarget
     stealGroup: Plushie
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: plushie_ungu-inhand-left
+      right:
+      - state: plushie_ungu-inhand-right
