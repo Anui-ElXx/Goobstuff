@@ -170,7 +170,7 @@
     speechSounds: Ungu
     allowedEmotes: ['Moo']
   - type: TypingIndicator
-    proto: ungu
+    proto: Ungu
   - type: HumanoidAppearance
     species: Ungu
     hideLayersOnEquip:
