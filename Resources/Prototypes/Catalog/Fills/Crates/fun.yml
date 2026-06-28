@@ -173,6 +173,11 @@
     - id: PlushieMoth
     - id: PlushieArachind
     - id: PlushiePenguin
+    # imp edit start
+    - id: PlushieUngu
+    - id: PlushieUnguTiny
+      weight: 0.1
+    # imp edit end
 
 - type: entityTable
   id: AllPottedPlantsTable

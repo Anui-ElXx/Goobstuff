@@ -283,6 +283,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVapor # Delta-V
+  - EmergencyWheat # imp
   - EmergencySilicon
 
 # nitrogen or oxygen tank, depending on what your species needs
@@ -742,6 +743,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVaporClown # Delta-V
+  - EmergencyWheatClown # imp
   - EmergencySilicon
 
 - type: loadoutGroup
@@ -804,6 +806,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVaporMime # Delta-V
+  - EmergencyWheatMime # imp
   - EmergencySilicon
 
 - type: loadoutGroup
@@ -1125,6 +1128,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVaporExtended # Delta-V
+  - EmergencyWheatExtended # imp
   - EmergencySilicon
 
 # Science
@@ -1434,6 +1438,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVaporSecurity # Delta-V
+  - EmergencyWheatSecurity # imp
   - EmergencySilicon
 
 - type: loadoutGroup
@@ -1656,6 +1661,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVaporMedical # Delta-V
+  - EmergencyWheatMedical # imp
   - EmergencySilicon
 
 # Wildcards
@@ -1703,6 +1709,7 @@
   - LoadoutSpeciesVoxNitrogen
   - LoadoutSpeciesPlasma # Goobstation
   - EmergencyWaterVaporSyndicate # Delta-V
+  - EmergencyWheatSyndicate # imp
   - EmergencySilicon
 
 - type: loadoutGroup
