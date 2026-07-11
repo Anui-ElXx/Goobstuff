@@ -1,0 +1,139 @@
+﻿- type: listing
+  id: UplinkClothingHeadHatConeStorage
+  name: uplink-cone-name
+  description: uplink-cone-desc
+  productEntity: ClothingHeadHatConeStorage
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerDepartmentCondition
+    whitelist:
+    - Engineering
+
+- type: listing
+  id: UplinkNetworkConfiguratorSignaller
+  name: uplink-network-configurator-signaller-name
+  description: uplink-network-configurator-signaller-desc
+  productEntity: NetworkConfiguratorSignaller
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerDepartmentCondition
+    whitelist:
+    - Engineering
+
+- type: listing
+  id: UplinkMimanaStealthy
+  name: uplink-mimana-stealthy-name
+  description: uplink-mimana-stealthy-desc
+  productEntity: MimanaPeelStealthy
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Clown
+
+- type: listing
+  id: UplinkFoodShakerPepperLead
+  name: uplink-shaker-lead-name
+  description: uplink-shaker-lead-desc
+  productEntity: FoodShakerPepperLead
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Chef
+
+- type: listing
+  id: UplinkEmergencyMedipenMute
+  name: uplink-medipen-mute-name
+  description: uplink-medipen-mute-desc
+  productEntity: EmergencyMedipenMute
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Mime
+
+- type: listing
+  id: UplinkClothingShoesColorWhiteSilent
+  name: uplink-silent-shoes-name
+  description: uplink-silent-shoes-desc
+  productEntity: ClothingShoesColorWhiteSilent
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Mime
+
+- type: listing
+  id: UplinkChemistryBottleLead
+  name: uplink-lead-bottle-name
+  description: uplink-lead-bottle-desc
+  productEntity: ChemistryBottleLead
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerDepartmentCondition
+    whitelist:
+    - Medical
+
+- type: listing
+  id: UplinkChemistryBottlePlasma
+  name: uplink-plasma-bottle-name
+  description: uplink-plasma-bottle-desc
+  productEntity: ChemistryBottlePlasma
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerDepartmentCondition
+    whitelist:
+    - Medical
+
+- type: listing
+  id: UplinkPitcherNapalm
+  name: uplink-pitcher-napalm-name
+  description: uplink-pitcher-napalm-desc
+  productEntity: PitcherNapalm
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Chef
+
+- type: listing
+  id: UplinkKudzuGrenade
+  name: uplink-kudzu-grenade-name
+  description: uplink-kudzu-grenade-desc
+  productEntity: KudzuGrenade
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Botanist

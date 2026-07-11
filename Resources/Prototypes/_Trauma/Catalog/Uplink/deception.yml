@@ -1,0 +1,12 @@
+﻿- type: listing
+  id: HandheldStationMapRecordsTablet
+  name: uplink-records-tablet-name
+  description: uplink-records-tablet-desc
+  icon:
+    sprite: _Trauma/Objects/Devices/tablets.rsi
+    state: icon
+  productEntity: HandheldStationMapRecordsTablet
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkDeception

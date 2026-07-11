@@ -1,0 +1,25 @@
+﻿- type: listing
+  id: UplinkDoorRemoteSyndicate
+  name: uplink-syndicate-remote-name
+  description: uplink-syndicate-remote-desc
+  productEntity: DoorRemoteSyndicate
+  icon: { sprite: _Trauma/Objects/Devices/device_remote.rsi, state: icon }
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkDisruption
+
+#- type: listing #useless? 100%
+#  id: UplinkDisposableTurretNukie
+#  name: uplink-disposable-turret-name
+#  description: uplink-disposable-turret-desc
+#  productEntity: ToolboxElectricalTurretFilled
+#  cost:
+#    Telecrystal: 40
+#  categories:
+#  - UplinkDisruption
+#  conditions:
+#  - !type:StoreWhitelistCondition
+#    whitelist:
+#      tags:
+#      - NukeOpsUplink

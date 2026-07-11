@@ -626,6 +626,7 @@
       borg_brain:
         - PositronicBrain
       borg_module:
+        - BorgModuleStickyGrenadeLauncher # Trauma
         - BorgModuleL6C
         - BorgModuleDoubleEsword
         - BorgModuleOperative

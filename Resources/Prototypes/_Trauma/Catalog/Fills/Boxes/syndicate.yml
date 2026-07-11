@@ -1,0 +1,16 @@
+﻿# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: [ BoxCardboard, BaseSyndicateContraband ]
+  id: ObservationKitSyndie
+  name: observation kit
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: SyndiCrewMonitorEmpty
+        - id: PowerCellMicroreactor
+        - id: ClothingEyesGlassesHiddenSecurity
+        - id: CameraBug

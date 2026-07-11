@@ -787,23 +787,28 @@
       - ContractorUplink
 
 
-# Goobstaiton - Disable Zombie Kit
-#- type: listing
-#  id: UplinkZombieBundle
-#  name: uplink-zombie-bundle-name
-#  description: uplink-zombie-bundle-desc
-#  icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
-#  productEntity: ClothingBackpackDuffelZombieBundle
-#  cost:
-#    Telecrystal: 200 # goob
-#  categories:
-#  - UplinkChemicals
-#  #Goobstation
-#  conditions:
-#  - !type:StoreWhitelistCondition
-#    blacklist:
-#      tags:
-#      - ContractorUplink
+- type: listing
+  id: UplinkZombieBundle
+  name: uplink-zombie-bundle-name
+  description: uplink-zombie-bundle-desc
+  icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
+  productEntity: ClothingBackpackDuffelZombieBundle
+  cost:
+    Telecrystal: 200 # Goob
+  categories:
+  - UplinkChemicals
+  #Goobstation
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      tags:
+      - ContractorUplink
+      components:
+      - SurplusBundle
 
 
 - type: listing
@@ -1413,7 +1418,7 @@
   name:  uplink-reinforcement-radio-cyborg-assault-name
   description: uplink-reinforcement-radio-cyborg-assault-desc
   productEntity: ReinforcementRadioSyndicateCyborgAssault
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault }
+  icon: { sprite: _Trauma/Mobs/Silicon/synd_assault.rsi, state: icon } # Trauma - was sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault
   cost:
     Telecrystal: 375 # goob
   categories:
@@ -1905,7 +1910,7 @@
 - type: listing
   id: UplinkHardsuitSyndie
   name: uplink-hardsuit-syndie-name
-  description: uplink-hardsuit-syndie-desc
+  description: uplink-hardsuit-traumasyndie-desc # Trauma - was uplink-hardsuit-syndie-desc
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateHardsuitBundle
   cost:
@@ -1940,7 +1945,7 @@
 - type: listing
   id: UplinkHardsuitSyndieElite
   name: uplink-hardsuit-syndieelite-name
-  description: uplink-hardsuit-syndieelite-desc
+  description: uplink-hardsuit-traumaelite-desc # Trauma - was uplink-hardsuit-syndieelite-desc
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
