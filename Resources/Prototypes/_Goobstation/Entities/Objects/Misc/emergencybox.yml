@@ -164,6 +164,12 @@
         whitelist:
           tags:
           - CableCoil
+  - type: UserInterface # Gabystation - ItemSlotUI
+    interfaces:
+      enum.ItemSlotsUiKey.Key:
+        type: ItemSlotsBoundUserInterface
+  - type: ActivatableUI # Gabystation - ItemSlotUI
+    key: enum.ItemSlotsUiKey.Key
 
 
 - type: entity
